@@ -28,16 +28,16 @@ Our solution replaces these with **ML-based surrogate models** trained on synthe
 
 ## 🧩 Project Structure  
 
-| File | Description |
-|------|--------------|
-| `he_data_generator_patched.py` | Generates a **synthetic dataset** — real measurements from **TenSEAL** encryption (CKKS/BFV), but with synthetically sampled parameter combinations. |
+| File / Folder | Description |
+|----------------|-------------|
+| `he_data_generator_patched.py` | Generates a **synthetic dataset** — collects real runtime, memory, and noise measurements from **TenSEAL** (CKKS/BFV) encryption, using synthetically sampled parameter combinations. |
+| `ml_feature_and_train.py` | Extracts features and trains ML models (LightGBM / RandomForest) to predict HE performance metrics. |
+| `recommend_params_demo.py` | Uses trained models to recommend optimized, secure, and feasible HE parameter configurations. |
+| `prove_speed.py` | Compares **classical brute-force search** against **ML-based parameter inference** to demonstrate speed improvements. |
+| `plot_result.py` | Visualizes runtime, memory, and search-time comparisons between classical and ML-based methods. |
+| `he_parameter_dataset/` | Contains generated CSV datasets of HE parameters and their measured results. |
+| `artifacts/` | Stores trained ML models, experiment reports (JSON), and visualization outputs. |
 
-| `ml_feature_and_train.py` | Extracts features and trains ML models (LightGBM/RandomForest). |
-| `recommend_params_demo.py` | Uses trained models to recommend secure, feasible HE parameter sets. |
-| `prove_speed.py` | Compares brute-force search vs ML surrogate inference time. |
-| `plot_result.py` | Visualizes runtime, memory, and search-time comparisons. |
-| `he_parameter_dataset/` | Stores generated CSV datasets. |
-| `artifacts/` | Stores trained models, JSON reports, and visualization outputs. |
 
 ---
 
