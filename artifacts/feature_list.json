@@ -1,0 +1,26 @@
+{
+  "categorical": [
+    "circuit_type",
+    "scheme"
+  ],
+  "numeric": [
+    "poly_modulus_degree",
+    "multiplicative_depth",
+    "operations_count",
+    "rotation_count",
+    "vector_size",
+    "cpu_cores",
+    "cpu_freq_ghz",
+    "memory_gb",
+    "memory_bandwidth_gb_s",
+    "cache_mb",
+    "has_gpu",
+    "num_primes",
+    "sum_coeff_bits",
+    "max_prime_bits",
+    "min_prime_bits",
+    "mean_prime_bits",
+    "last_prime_bits",
+    "log2_poly"
+  ]
+}

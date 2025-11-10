@@ -1,0 +1,10 @@
+{
+  "runtime_mae": 0.0016889175104801894,
+  "runtime_rmse": 0.004693049628437188,
+  "runtime_rmae": 0.03382026179162483,
+  "success_auc": 1.0,
+  "success_brier": 0.0,
+  "noise_mae": 0.5076380325811224,
+  "noise_rmse": 0.5904482045052585,
+  "noise_rmae": 0.0081982365468647
+}

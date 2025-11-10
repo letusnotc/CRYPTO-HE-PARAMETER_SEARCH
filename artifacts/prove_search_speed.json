@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "num_candidates": 68,
+    "grid_ns": [
+      4096,
+      8192,
+      16384
+    ],
+    "grid_scales": [
+      20,
+      30
+    ],
+    "grid_bases": [
+      2,
+      3
+    ],
+    "max_ladders_per_n": 6
+  },
+  "Classical_search": {
+    "time_seconds": 16.05221030001121,
+    "candidates_evaluated": 44,
+    "best_actual": {
+      "n": 16384,
+      "coeff_mod_bits": [
+        60,
+        60,
+        40,
+        40
+      ],
+      "sum_coeff_bits": 200,
+      "num_primes": 4,
+      "scale_bits": 30,
+      "base": 3,
+      "runtime_s": 0.03299450874328613,
+      "success": 1,
+      "noise_budget": 61.18550887862795,
+      "security_bits": 192,
+      "memory_mb": 4.0
+    }
+  },
+  "ML_search": {
+    "time_seconds": 0.3189423000003444,
+    "models_loaded": {
+      "loaded_runtime_model": true,
+      "loaded_success_model": true
+    },
+    "candidates_scored": 68,
+    "winner_pred": {
+      "poly_modulus_degree": 16384,
+      "coeff_mod_bits": [
+        60,
+        60,
+        40,
+        40
+      ],
+      "scale_bits": 20,
+      "base": 2,
+      "pred_runtime_s": 0.040580386579689404,
+      "pred_success": 1.0,
+      "num_primes": 4,
+      "sum_coeff_bits": 200
+    },
+    "winner_actual_verified": {
+      "n": 16384,
+      "coeff_mod_bits": [
+        60,
+        60,
+        40,
+        40
+      ],
+      "sum_coeff_bits": 200,
+      "num_primes": 4,
+      "scale_bits": 20,
+      "base": 2,
+      "runtime_s": 0.03400135040283203,
+      "success": 1,
+      "noise_budget": 60.17704462383006,
+      "security_bits": 192,
+      "memory_mb": 4.0
+    }
+  },
+  "Search_time_speedup_classical_over_ML": 50.32951195245622
+}

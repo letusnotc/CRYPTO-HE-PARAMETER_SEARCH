@@ -1,0 +1,45 @@
+{
+  "ML_recommended_actual": {
+    "n": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "sum_coeff_bits": 200,
+    "num_primes": 4,
+    "scale_bits": 20,
+    "base": 2,
+    "runtime_s": 0.037435293197631836,
+    "success": 1,
+    "noise_budget": 61.6208021658205,
+    "security_bits": 192,
+    "memory_mb": 4.0
+  },
+  "Conservative_baseline_actual": {
+    "n": 16384,
+    "coeff_mod_bits": [
+      60,
+      50,
+      50,
+      40,
+      30
+    ],
+    "sum_coeff_bits": 230,
+    "num_primes": 5,
+    "scale_bits": 20,
+    "base": 2,
+    "runtime_s": 0.03400111198425293,
+    "success": 1,
+    "noise_budget": 61.895657598408185,
+    "security_bits": 192,
+    "memory_mb": 5.0
+  },
+  "Detailed_runtime_comparison": {
+    "runtime_ML_seconds_precise": 0.037435293197631836,
+    "runtime_Conservative_seconds_precise": 0.03400111198425293,
+    "runtime_difference_seconds": -0.0034341812133789062,
+    "Speedup_factor_conservative_over_ML": 0.9082635416998376
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "poly_modulus_degree": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "scale_bits": 20,
+    "base": 2,
+    "pred_runtime_s": 0.040580386579689404,
+    "pred_success": 1.0,
+    "num_primes": 4,
+    "sum_coeff_bits": 200
+  },
+  {
+    "poly_modulus_degree": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "scale_bits": 20,
+    "base": 3,
+    "pred_runtime_s": 0.040580386579689404,
+    "pred_success": 1.0,
+    "num_primes": 4,
+    "sum_coeff_bits": 200
+  },
+  {
+    "poly_modulus_degree": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "scale_bits": 20,
+    "base": 5,
+    "pred_runtime_s": 0.040580386579689404,
+    "pred_success": 1.0,
+    "num_primes": 4,
+    "sum_coeff_bits": 200
+  },
+  {
+    "poly_modulus_degree": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "scale_bits": 30,
+    "base": 2,
+    "pred_runtime_s": 0.040580386579689404,
+    "pred_success": 1.0,
+    "num_primes": 4,
+    "sum_coeff_bits": 200
+  },
+  {
+    "poly_modulus_degree": 16384,
+    "coeff_mod_bits": [
+      60,
+      60,
+      40,
+      40
+    ],
+    "scale_bits": 30,
+    "base": 3,
+    "pred_runtime_s": 0.040580386579689404,
+    "pred_success": 1.0,
+    "num_primes": 4,
+    "sum_coeff_bits": 200
+  }
+]
