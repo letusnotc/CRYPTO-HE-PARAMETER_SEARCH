@@ -102,12 +102,10 @@ Creates comparative plots showing **runtime, search time, and memory efficiency*
 
 ## 🖼️ Visualization Example  
 
-> *(Upload your image file here, for example: `artifacts/plot_search_comparison_full.png`)*  
-> The plot below compares **Classical Search vs ML Search** across **Runtime**, **Search Time**, and **Memory Efficiency**.
+The plot below compares **Classical Search vs ML Search** across **Runtime**, **Search Time**, and **Memory Efficiency**.
 
-```
 ![Search Comparison Plot](artifacts/plot_search_comparison_full.png)
-```
+
 
 ---
 
