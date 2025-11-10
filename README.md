@@ -74,7 +74,7 @@ artifacts/recommended_params.json
 
 ### 4️⃣ Benchmark Classical vs ML Search
 ```bash
-python prove_speed.py --csv he_parameter_dataset/he_dataset_final.csv
+python proove_speed.py --csv he_parameter_dataset/he_dataset_final.csv
 ```
 Generates performance comparison:
 ```
