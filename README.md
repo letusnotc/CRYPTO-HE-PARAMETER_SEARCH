@@ -30,7 +30,8 @@ Our solution replaces these with **ML-based surrogate models** trained on synthe
 
 | File | Description |
 |------|--------------|
-| `he_data_generator_patched.py` | Generates synthetic dataset using **TenSEAL**-based benchmarking. |
+| `he_data_generator_patched.py` | Generates a **synthetic dataset** — real measurements from **TenSEAL** encryption (CKKS/BFV), but with synthetically sampled parameter combinations. |
+
 | `ml_feature_and_train.py` | Extracts features and trains ML models (LightGBM/RandomForest). |
 | `recommend_params_demo.py` | Uses trained models to recommend secure, feasible HE parameter sets. |
 | `prove_speed.py` | Compares brute-force search vs ML surrogate inference time. |
